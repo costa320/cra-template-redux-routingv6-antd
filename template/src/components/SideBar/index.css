@@ -1,0 +1,56 @@
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+/* .logo {
+  float: left;
+  width: 120px;
+  height: 43px;
+  margin: 10px 24px 10px 0;
+  background: url("../img/LogoPITF.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.user {
+  height: 64px;
+  position: absolute;
+  right: 40px;
+  display: flex;
+}
+
+.userName {
+  vertical-align: 15px;
+}
+
+.userName .ant-space-item {
+  height: 16px !important;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+#components-layout-demo-top-side .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}

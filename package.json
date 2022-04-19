@@ -1,0 +1,13 @@
+{
+  "name": "cra-redux-routingv6-antd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-cra-template": "npx create-react-app my-app --template file:."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/costa320/cra-template-redux-routingv6-antd.git"
+}
